@@ -1,0 +1,15 @@
+Probleme vorab: 
+Setup unter Linux -> Arduino wird nicht erkannt
+Lösungsweg: [Patrick] -> udev rules
+
+Ex 1:
+- bei analogWrite sind high (255) und low (0) invertiert - damit die LED aus ist, müssen alle Werte auf 255 gesetzt werden
+- digitalWrite normal (low = aus, high = an)
+
+Ex 2: 
+
+Ex 3: 
+
+Ex 4: 
+- Arduiono IDE: Tools -> Serial Plotter -> bei Bewegung enstehende Kurve in Bericht aufnehmen
+- kurz beschreiben, was ein Gyroskop und das andere Ding tut 
